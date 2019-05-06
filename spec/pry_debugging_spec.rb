@@ -4,7 +4,6 @@ require './lib/pry_debugging.rb'
 def plus_two(num)
   new_num = num + 2
   puts new_num
-  binding.pry
 end 
 
 describe "#plus_two" do 
