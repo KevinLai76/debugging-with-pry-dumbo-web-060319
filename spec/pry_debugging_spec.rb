@@ -2,8 +2,7 @@ require 'pry'
 require './lib/pry_debugging.rb'
 
 def plus_two(num)
-  new_num = num + 2
-  puts new_num
+  puts num + 2
 end 
 
 describe "#plus_two" do 
